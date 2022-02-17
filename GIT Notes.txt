@@ -1,0 +1,50 @@
+
+GIT
+
+TO PUSH ONE CODE NEED TO GITHUB USE GIT
+
+3 PHASE WILL BE THERE IN GIT
+
+1. Work Space 
+2. Stagging/Index
+3. Local Repository
+
+1. Work Space : 
+    By using command "Touch" files need to create and
+    By using command " git status" files show in Work space.
+    By using command "git add" files will push to Stagging/Index phase.
+
+2.Satging/Index:
+     We store here the files.
+     By using command " git status" files show in Staging/Index.
+     By using command "git commit --m "lable" " and for specific file need to extention with the file name.
+
+3.  Local Repository :
+       Here Commit ID will be there with 28 letters and will check here files. EX: CID1,CID2
+       By using command "gitpush" files will push to github.
+
+
+$ GIT INIT---INSTALL
+  git config --global user.name "xxx"
+  git config --global user.email"mail"
+
+
+1---touch XXXX (Work space)
+2---git add xxxx (staging/index) / git add . (for push all files at a time)
+3---git commit --m"lable" (local repository)
+4---git log ( to check history & commit IDs)
+5---git push(files into github)
+6---git show CID (show particular files in commit ID)
+
+
+
+
+
+
+--->1 USA       2 UK     3 IND
+
+--->From diffrent locations files will push to build team, build team will convert it into executable files and deploy the files.
+
+
+
+
